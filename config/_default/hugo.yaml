@@ -2,8 +2,8 @@
 ## CHANGE THESE
 ############################
 
-baseURL: 'https://username.github.io/L1nkr'
-title: 'L1nkr'
+baseURL: 'https://admatthews.co.uk/'
+title: 'Adam Matthews'
 
 ############################
 ## MODULES
@@ -20,6 +20,6 @@ module:
 
 enableEmoji: true
 disableKinds: ['taxonomy', 'term']
-languageCode: 'en-us'
+languageCode: 'en-gb'
 
 

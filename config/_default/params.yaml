@@ -3,9 +3,9 @@
 ############################
 
 author:
-  name: "L1nkr"
-  image: author.png
-  greeting: "A simple LinkTree theme for Hugo :evergreen_tree:"
+  name: "Adam Matthews"
+  image: headshot-sq.png
+  greeting: "Greetings, Welcome, Bonjour! :evergreen_tree:"
   icon: ":wave:"
 
 ############################
@@ -13,20 +13,20 @@ author:
 ############################
 
 links:
-  - github: https://github.com/chrede88/L1nkr
-  - link: https://github.com/Chrede88/L1nkr#readme
-  - website: https://gohugo.io
+  - github: https://github.com/adamsthws
+#  - link: https://github.com/Chrede88/L1nkr#readme
+  - website: https://wonkatron.com
   # - x-twitter: 
-  # - mastodon: 
-  # - linkedin: 
-  # - instagram: 
+  - mastodon: https://mastodon.social/@wonkatron
+  - linkedin: https://www.linkedin.com/in/adamatthews/
+  - instagram: https://www.instagram.com/adamsthws
   # - reddit: 
-  # - telegram: 
-  # - whatsapp: 
-  # - signal: 
+  - telegram: https://t.me/wonkatron
+  - whatsapp: https://wa.me/+447966614062
+  - signal: https://signal.me/#eu/ETvmROZeHolwP-YJNMLANlSbOsANdtm5jAIA6yQCLmmEOjVr4cNBopgmsFuFImX5
   # - codepen: 
   # - dev: 
-  # - email: 
+  - email: adam@admatthews.com
   # - discord: 
   # - orcid: 
   # - slack: 
@@ -57,7 +57,7 @@ links:
   # - apple: 
   # - amazon:
   # - google:
-  # - paypal:
+  - paypal: https://paypal.me/adamsthws
   # - windows:
 
 ############################
@@ -85,7 +85,7 @@ tooltip: true
 ## OpenGraph & Twitter Cards
 ###############################
 
-title: "L1nkr"
-description: "Demo site build with L1nkr & Hugo"
+title: "Adam Matthews"
+description: "Built with L1nkr & Hugo"
 images:
   - thumbnail.png
