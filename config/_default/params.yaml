@@ -5,8 +5,8 @@
 author:
   name: "Adam Matthews"
   image: headshot-sq.png
-  greeting: "Greetings, Welcome, Bonjour! :evergreen_tree:"
-  icon: ":wave:"
+  greeting: "Connect with me..."
+  # icon: ":wave:"
 
 ############################
 ## Links
@@ -14,7 +14,7 @@ author:
 
 links:
   - github: https://github.com/adamsthws
-#  - link: https://github.com/Chrede88/L1nkr#readme
+  # - link: https://github.com/Chrede88/L1nkr#readme
   - website: https://wonkatron.com
   # - x-twitter: 
   - mastodon: https://mastodon.social/@wonkatron
@@ -65,7 +65,7 @@ links:
 ############################
 
 # between 2 & 6 columns are supported (both incl)
-columns: 3
+columns: 5
 
 ###########################
 ## Icon text
@@ -80,6 +80,14 @@ icontext: true
 
 # add tooltips on all icons
 tooltip: true
+
+##############################
+## Monochromatic color scheme
+##############################
+
+# all links will be slate-700 (or slate-50 in dark mode)
+# https://tailwindcss.com/docs/customizing-colors
+monochrome: true
 
 ###############################
 ## OpenGraph & Twitter Cards
