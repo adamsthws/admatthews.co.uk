@@ -79,7 +79,7 @@ icontext: true
 ############################
 
 # add tooltips on all icons
-tooltip: true
+tooltip: false
 
 ##############################
 ## Monochromatic color scheme
