@@ -3,30 +3,30 @@
 ############################
 
 author:
-  name: "Adam Matthews"
-  image: headshot-sq.png
-  greeting: "Information Security Specialist"
-  # icon: ":wave:"
+  name: adamsthws
+  image: author.png
+  greeting: "Your new L1nkr site :tada:"
+  icon: ":wave:"
 
 ############################
 ## Links
 ############################
 
 links:
-  - github: https://github.com/adamsthws
-  # - link: https://github.com/Chrede88/L1nkr#readme
-  - website: https://wonkatron.com
+  - github: https://github.com/adamsthws/admatthews.co.uk
+  - link: https://github.com/adamsthws/admatthews.co.uk#readme
+  # - website: 
   # - x-twitter: 
-  - mastodon: https://mastodon.social/@wonkatron
-  - linkedin: https://www.linkedin.com/in/adamatthews/
-  - instagram: https://www.instagram.com/adamsthws
+  # - mastodon: 
+  # - linkedin: 
+  # - instagram: 
   # - reddit: 
-  - telegram: https://t.me/wonkatron
-  - whatsapp: https://wa.me/+447966614062
-  - signal: https://signal.me/#eu/ETvmROZeHolwP-YJNMLANlSbOsANdtm5jAIA6yQCLmmEOjVr4cNBopgmsFuFImX5
+  # - telegram: 
+  # - whatsapp: 
+  # - signal: 
   # - codepen: 
   # - dev: 
-  - email: mailto:adam@admatthews.co.uk?subject=Hello%20Adam...
+  # - email: 
   # - discord: 
   # - orcid: 
   # - slack: 
@@ -57,7 +57,7 @@ links:
   # - apple: 
   # - amazon:
   # - google:
-  - paypal: https://paypal.me/adamsthws
+  # - paypal:
   # - windows:
 
 ############################
@@ -65,7 +65,7 @@ links:
 ############################
 
 # between 2 & 6 columns are supported (both incl)
-columns: 5
+columns: 2
 
 ###########################
 ## Icon text
@@ -79,21 +79,13 @@ icontext: true
 ############################
 
 # add tooltips on all icons
-tooltip: false
-
-##############################
-## Monochromatic color scheme
-##############################
-
-# all links will be slate-700 (or slate-50 in dark mode)
-# https://tailwindcss.com/docs/customizing-colors
-monochrome: true
+tooltip: true
 
 ###############################
 ## OpenGraph & Twitter Cards
 ###############################
 
-title: "Adam Matthews"
-description: "Built with L1nkr & Hugo"
+title: admatthews.co.uk
+description: "Demo site build with L1nkr & Hugo"
 images:
   - thumbnail.png

@@ -2,8 +2,8 @@
 ## CHANGE THESE
 ############################
 
-baseURL: 'https://admatthews.co.uk/'
-title: 'Adam Matthews'
+baseURL: 'https://adamsthws.github.io/admatthews.co.uk'
+title: admatthews.co.uk
 
 ############################
 ## MODULES
@@ -20,6 +20,6 @@ module:
 
 enableEmoji: true
 disableKinds: ['taxonomy', 'term']
-languageCode: 'en-gb'
+languageCode: 'en-us'
 
 
