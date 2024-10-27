@@ -5,7 +5,7 @@
 author:
   name: "Adam Matthews"
   image: headshot-sq.png
-  greeting: "Information Security Specialist"
+  greeting: "Information Security Engineer"
   # icon: ":wave:"
 
 ############################
@@ -20,6 +20,7 @@ links:
   - mastodon: https://mastodon.social/@wonkatron
   - linkedin: https://www.linkedin.com/in/adamatthews/
   - instagram: https://www.instagram.com/adamsthws
+  - facebook: https://www.facebook.com/wonkatron/
   # - reddit: 
   - telegram: https://t.me/wonkatron
   - whatsapp: https://wa.me/+447966614062
