@@ -1,3 +1,8 @@
+/* Apply custom font to the body, other elements will also inherit it from body */
+body {
+  font-family: "Courier New", monospace;
+}
+
 .link-PGP-Key {
   background-color: #a13c94;
 }
