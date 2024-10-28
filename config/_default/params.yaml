@@ -18,9 +18,9 @@ links:
   - website: https://wonkatron.com
   # - x-twitter: 
   - mastodon: https://mastodon.social/@wonkatron
-  - linkedin: https://www.linkedin.com/in/adamatthews/
+  - linkedin: https://www.linkedin.com/in/adamatthews
   - instagram: https://www.instagram.com/adamsthws
-  - facebook: https://www.facebook.com/wonkatron/
+  - facebook: https://www.facebook.com/wonkatron
   # - reddit: 
   - telegram: https://t.me/wonkatron
   - whatsapp: https://wa.me/+447966614062
@@ -60,6 +60,7 @@ links:
   # - google:
   - paypal: https://paypal.me/adamsthws
   # - windows:
+  - PGP-Key: https://keys.openpgp.org/search?q=57E367065CDCD3CC
 
 ############################
 ## Colunms of Links
