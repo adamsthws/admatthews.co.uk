@@ -7,7 +7,7 @@ Built with [Hugo](https://github.com/gohugoio/hugo) - (Fast and flexible static 
 Themed with [L1nkr](https://github.com/chrede88/L1nkr) - (Simple mobile-first LinkTree style Hugo Theme).
 
 
-![Example screenshot of the home page](assets\landing-page.jpg)
+![Example screenshot of the home page](./assets/landing-page.jpg)
 
 ## Features
 
