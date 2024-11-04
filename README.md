@@ -1,6 +1,6 @@
 # admatthews.co.uk 
 
-**Adam Matthews - Personal LinkTree style landing page.**
+**Adam Matthews - Personal Hyperfollow / LinkTree style landing page.**
 
 Built with [Hugo](https://github.com/gohugoio/hugo) - (Fast and flexible static site generator).
 
