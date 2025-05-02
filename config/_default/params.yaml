@@ -22,9 +22,9 @@ links:
   - signal: https://signal.me/#eu/ETvmROZeHolwP-YJNMLANlSbOsANdtm5jAIA6yQCLmmEOjVr4cNBopgmsFuFImX5
   - telegram: https://t.me/adamsthws
   - mastodon: https://mastodon.social/@wonkatron
-  - facebook: https://www.facebook.com/adamsthws
-  - instagram: https://www.instagram.com/adamsthws
-  - paypal: https://paypal.me/adamsthws
+  # - facebook: https://www.facebook.com/user
+  # - instagram: https://www.instagram.com/user
+  # - paypal: https://paypal.me/user
   - PGP-Key: https://github.com/adamsthws.gpg
   - SSH-Key: https://github.com/adamsthws.keys
   # - link: https://github.com/Chrede88/L1nkr#readme
