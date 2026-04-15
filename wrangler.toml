@@ -15,4 +15,4 @@ pages_build_output_dir = "public"
 # renovate: datasource=github-tags depName=golang/go
 GO_VERSION = "1.26.1"
 # renovate: datasource=github-releases depName=gohugoio/hugo
-HUGO_VERSION = "0.136.5"
+HUGO_VERSION = "0.157.0"
