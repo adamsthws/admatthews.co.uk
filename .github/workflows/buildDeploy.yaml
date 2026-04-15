@@ -2,10 +2,11 @@
 # Go to Settings -> Pages -> Build and deployment -> Set the Source to "Github Actions".
 name: Deploy to GitHub Pages [DISABLED]
 
-# NOTE: Triggers disabled - site is deployed via Cloudflare Pages instead.
-# on:
+# NOTE: Automatic triggers disabled - site is deployed via Cloudflare Pages instead.
+on:
   # release:
-  #   types: [published]  
+  #   types: [published] 
+  workflow_dispatch: # Manual trigger from Github gui
 
 # Change the above to this if you want to build and deploy on every push, but
 # be mindful of overuse. Free accounts have a limited amount of
