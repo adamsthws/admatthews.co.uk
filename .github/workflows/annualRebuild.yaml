@@ -1,4 +1,4 @@
-name: Annual New Year Rebuild
+name: Annual Rebuild - Cloudflare redeploy, Jan 1st
 
 # Triggers a Cloudflare Pages rebuild on Jan 1st each year.
 # This ensures the copyright year in the footer (rendered at build time) stays current.

@@ -1,4 +1,8 @@
-name: Clean Template
+name: First-Run Template Setup
+
+# Runs once when a new repo is generated from this template.
+# Substitutes %NAME%/%USER% placeholders, removes template-only files,
+# and commits the result so the repo is ready to use immediately.
 
 on:
   # run when branch created (repo generated from template)
@@ -9,8 +13,7 @@ concurrency:
   group: first-time-setup
   cancel-in-progress: false
 
-# ADDED THIS CHANGE
-permissions: 
+permissions:
   actions: write
   checks: write
   contents: write
