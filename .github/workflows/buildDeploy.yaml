@@ -1,9 +1,9 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
 # Go to Settings -> Pages -> Build and deployment -> Set the Source to "Github Actions".
-name: Build & Deploy to GitHub Pages [DISABLED]
+name: Deploy to GitHub Pages [DISABLED]
 
 # NOTE: Triggers disabled - site is deployed via Cloudflare Pages instead.
-on:
+# on:
   # release:
   #   types: [published]  
 
