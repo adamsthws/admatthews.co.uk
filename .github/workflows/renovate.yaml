@@ -1,11 +1,14 @@
 ---
-name: "Renovate"
+# Runs Renovate bot to automatically check for dependency updates and open
+# pull requests when newer versions are available.
+name: "Renovate - Auto-update dependencies"
 
 on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 0 * * *" # Every day at midnight
+    - cron: "0 0 1 * *" # First day of every month at midnight
+
   push:
     branches: ["main"]
     paths:

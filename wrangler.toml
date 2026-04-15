@@ -1,0 +1,10 @@
+# Cloudflare Pages configuration.
+# See https://developers.cloudflare.com/pages/functions/wrangler-configuration/
+name = "admatthews-co-uk"
+pages_build_output_dir = "public"
+
+[vars]
+# renovate: datasource=github-tags depName=golang/go
+GO_VERSION = "1.23.2"
+# renovate: datasource=github-releases depName=gohugoio/hugo
+HUGO_VERSION = "0.136.5"

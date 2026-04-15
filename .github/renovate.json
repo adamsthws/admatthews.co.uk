@@ -14,10 +14,18 @@
   "timezone": "Europe/Zurich",
   "customManagers": [
     {
-      "description": "Update Hugo/Go version in Github actions",
+      "description": "Update Hugo/Go version in GitHub Actions workflows",
       "customType": "regex",
       "fileMatch": ["^.github/(?:workflows|actions)/.+\\.ya?ml$"],
       "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?'(?<currentValue>.*)'\n"],
+      "versioningTemplate": "semver-coerced",
+      "extractVersionTemplate": "^(v|go)?(?<version>.*)$"
+    },
+    {
+      "description": "Update Hugo/Go version in wrangler.toml",
+      "customType": "regex",
+      "fileMatch": ["^wrangler\\.toml$"],
+      "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?\"(?<currentValue>.*)\"\n"],
       "versioningTemplate": "semver-coerced",
       "extractVersionTemplate": "^(v|go)?(?<version>.*)$"
     }
@@ -27,6 +35,16 @@
       "matchManagers": ["gomod"],
       "matchDepTypes": ["indirect"],
       "enabled": true
+    },
+    {
+      "description": "Group Hugo updates across all files into one PR",
+      "matchDepNames": ["gohugoio/hugo"],
+      "groupName": "Hugo"
+    },
+    {
+      "description": "Group Go updates across all files into one PR",
+      "matchDepNames": ["golang/go", "go"],
+      "groupName": "Go"
     }
   ]
 }
