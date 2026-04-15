@@ -1,0 +1,16 @@
+name: Annual New Year Rebuild
+
+# Triggers a Cloudflare Pages rebuild on Jan 1st each year.
+# This ensures the copyright year in the footer (rendered at build time) stays current.
+# Requires a CLOUDFLARE_DEPLOY_HOOK_URL secret set in the repository settings.
+on:
+  schedule:
+    - cron: '0 0 1 1 *'  # 00:00 UTC on Jan 1st each year
+  workflow_dispatch:       # Allow manual triggering from the Actions tab
+
+jobs:
+  trigger-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Pages rebuild via deploy hook
+        run: curl -X POST "${{ secrets.CLOUDFLARE_DEPLOY_HOOK_URL }}"
