@@ -37,14 +37,16 @@
       "enabled": true
     },
     {
-      "description": "Group Hugo updates across all files into one PR",
+      "description": "Group Hugo updates across all files into one PR. 30 day minimum age ensures Cloudflare Pages supports the version before we upgrade.",
       "matchDepNames": ["gohugoio/hugo"],
-      "groupName": "Hugo"
+      "groupName": "Hugo",
+      "minimumReleaseAge": "30 days"
     },
     {
-      "description": "Group Go updates across all files into one PR",
+      "description": "Group Go updates across all files into one PR. 30 day minimum age ensures Cloudflare Pages supports the version before we upgrade.",
       "matchDepNames": ["golang/go", "go"],
-      "groupName": "Go"
+      "groupName": "Go",
+      "minimumReleaseAge": "30 days"
     }
   ]
 }
