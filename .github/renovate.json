@@ -16,7 +16,7 @@
     {
       "description": "Update Hugo/Go version in GitHub Actions workflows",
       "customType": "regex",
-      "fileMatch": ["^.github/(?:workflows|actions)/.+\\.ya?ml$"],
+      "managerFilePatterns": ["/^.github/(?:workflows|actions)/.+\\.ya?ml$/"],
       "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?'(?<currentValue>.*)'\n"],
       "versioningTemplate": "semver-coerced",
       "extractVersionTemplate": "^(v|go)?(?<version>.*)$"
@@ -24,7 +24,7 @@
     {
       "description": "Update Hugo/Go version in wrangler.toml",
       "customType": "regex",
-      "fileMatch": ["^wrangler\\.toml$"],
+      "managerFilePatterns": ["/^wrangler\\.toml$/"],
       "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?\"(?<currentValue>.*)\"\n"],
       "versioningTemplate": "semver-coerced",
       "extractVersionTemplate": "^(v|go)?(?<version>.*)$"
