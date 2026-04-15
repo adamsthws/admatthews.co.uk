@@ -15,18 +15,13 @@
   "timezone": "Europe/Zurich",
   "customManagers": [
     {
-      "description": "Update Hugo/Go version in GitHub Actions workflows",
+      "description": "Update Hugo/Go version in GitHub Actions workflows and wrangler.toml",
       "customType": "regex",
-      "managerFilePatterns": ["/^.github/(?:workflows|actions)/.+\\.ya?ml$/"],
-      "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?'(?<currentValue>.*)'\n"],
-      "versioningTemplate": "semver-coerced",
-      "extractVersionTemplate": "^(v|go)?(?<version>.*)$"
-    },
-    {
-      "description": "Update Hugo/Go version in wrangler.toml",
-      "customType": "regex",
-      "managerFilePatterns": ["/^wrangler\\.toml$/"],
-      "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?\"(?<currentValue>.*)\"\n"],
+      "managerFilePatterns": [
+        "/^.github/(?:workflows|actions)/.+\\.ya?ml$/",
+        "/^wrangler\\.toml$/"
+      ],
+      "matchStrings": ["datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n.*?['\"](?<currentValue>.*)['\"]\\n"],
       "versioningTemplate": "semver-coerced",
       "extractVersionTemplate": "^(v|go)?(?<version>.*)$"
     }
