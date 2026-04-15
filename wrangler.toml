@@ -1,8 +1,39 @@
 # Cloudflare Pages configuration.
 # See https://developers.cloudflare.com/pages/functions/wrangler-configuration/
+
+# Top-level configuration...
+
+# Disable Cloudflare metrics collection
+send_metrics=false
+
+# Default worker name (used if no --env is passed)
 name = "admatthews-co-uk"
+
+# Directory where the built site output is located
 pages_build_output_dir = "public"
 
+# Enable/Disable Cloudflare URLs 
+# (if disabled, must deploy via custom domain instead)
+# (false = disabled. true = enabled)
+workers_dev = false
+preview_urls = false
+
+# Custom domain configurations
+[[routes]]
+pattern = "www.admatthews.co.uk"
+zone_name = "admatthews.co.uk"
+custom_domain = true
+
+[[routes]]
+pattern = "admatthews.co.uk"
+zone_name = "admatthews.co.uk"
+custom_domain = true
+
+# Observability configuration
+[observability.logs]
+enabled = true # Enable log collection for this project
+
+# Build environment variables
 [vars]
 # renovate: datasource=github-tags depName=golang/go
 GO_VERSION = "1.23.2"
